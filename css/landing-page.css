@@ -17,7 +17,12 @@ h6 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
-
+#brand {
+  color: rgb(47, 0, 255);
+}
+#slogan {
+  color: whitesmoke;
+}
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -97,15 +102,19 @@ header.masthead h1 {
 }
 
 .testimonials .testimonial-item img {
-  max-width: 12rem;
+  max-width: 10rem;
+  max-height: 10rem;
   -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
-
+#motto {
+  font-size: 50px;
+  text-transform: uppercase;
+}
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("https://www.crossfitagoge.com/wp-content/uploads/2018/07/bg-slider2.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
